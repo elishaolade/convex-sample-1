@@ -1,0 +1,96 @@
+@import "css/reset.css";
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+html{
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+}
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: transparent !important;
+  font-family: 'Poppins', sans-serif;
+}
+a,a:hover{
+  text-decoration: none;
+}
+.col-5{
+  padding: 0 20px;
+}
+.vertical-middle{
+  position: absolute;
+  top: 50%;
+  left:0;
+  width: 100%;
+  margin-top: -250px;
+}
+.col-padding{
+  padding:40px;
+}
+.social-media-icons-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.social-media-icons {
+  height: 50px;
+}
+.social-media-icons-container .social-media-icons .icon {
+  display: inline-flex;
+  margin: 0 5px;
+  height: 35px;
+  width: 35px;
+  padding: 15px;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 50%;
+  margin-right: 15px;
+  position: relative;
+}
+.social-media-icons-container .social-media-icons .icon .fab{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.social-media-icons-container .social-media-icons .fb {
+  background: #4267b2;
+  color: #fff;
+}
+.social-media-icons-container .social-media-icons .tw {
+  background: #1da1f2;
+  color: #fff;
+}
+.social-media-icons-container .social-media-icons .inst {
+  background: #000;
+  color: #fff;
+}
+.social-media-icons-container .social-media-icons .gh {
+  background: #000;
+  color: #fff;
+}
+.icons-size-grow{
+  height: 50px !important;
+  width: 50px !important;
+}
+.form-control, .input-group-text{
+  border: 1px solid #000;
+}
+.input-group,
+.input-group > .input-group-append > .btn, .input-group > .input-group-append > .input-group-text,
+.input-group > .input-group-prepend:first-child > .btn:not(:first-child),
+.input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child),
+.input-group > .input-group-prepend:not(:first-child) > .btn, .input-group > .input-group-prepend:not(:first-child) > .input-group-text
+{
+  background: transparent;
+}
+@media (min-width:1200px){
+  
+}
